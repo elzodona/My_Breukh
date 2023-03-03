@@ -1,0 +1,425 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.main{
+    margin: auto;
+    width: 80em;
+}
+
+.one{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(61, 51, 63);
+    block-size: 3em;
+    grid-column-gap: 500px;
+    color: white;
+}
+
+.un {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 70em;
+    block-size: 2em;
+    justify-content: space-around;
+    padding: 0.6em;
+}
+
+.deux {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30em;
+    block-size: 2em;
+    justify-content: space-around;
+    padding: 0.6em;
+}
+
+.two{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(25, 31, 27);
+    block-size: 7em;
+    grid-column-gap: 100px;
+    color: white;
+    padding: 1em;
+}
+
+.txt{
+    color: white;
+    font-weight: bolder;
+}
+
+.champ{
+    width: 80em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+input{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.in{
+ width: 30em;
+ block-size: 3em;
+}
+
+.butt{
+ width: 8em;
+ block-size: 3em;
+ background-color: red;
+ border-radius: 0px 30px 30px 0px;
+}
+
+.hey{
+  width: 20em;
+  block-size: 3em;
+  padding: 1em;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.point{
+  font-size: 3.5em;
+  color: red;
+  margin-left: 0.5em;
+}
+
+.how{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2em 2em;
+}
+
+.dos{
+    position: relative;
+    top: -0.9em;
+    left: -2em;
+    color: white;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 17px;
+    text-align: center;
+    width: 1em;
+    block-size: 1.2em;
+}
+
+.hush {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2em 2em;
+}
+
+.tres {
+    position: relative;
+    top: -0.9em;
+    left: -0.5em;
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 17px;
+    width: 1em;
+    block-size: 1.2em;
+}
+
+.bod{
+ background-color: white;
+}
+
+.three {
+    display: flex;
+    flex-wrap: nowrap;
+    block-size: 1.8em;
+    width: 50em;
+    margin: 0.7em;
+    justify-content: space-between;
+}
+
+.no{
+  color: red;
+  font-weight: bolder;
+}
+
+.yes{
+    text-decoration: none;
+    color: black;
+}
+
+.area{
+ display: flex;
+ justify-content: space-around;
+ margin-top: -1.4em;
+ position: relative;
+ top: 2em; 
+}
+
+.ol{
+    border: 2px solid red;
+    background-color: red;
+    margin-right: 1em;  
+}
+
+.are {
+    margin-top: -1.4em;
+    position: relative;
+    left: 15em;
+    top: 2em;
+}
+
+.imgr{
+background-image: url(ordi.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+block-size: 15em;
+width: 20em;
+position: relative;
+}
+
+.trans {
+    border-top: 227px solid red;
+    border-right: 250px solid transparent;
+    opacity: 0.8;
+    position: relative;
+    z-index: 1;
+}
+
+.blk1 {
+    border: 1px solid red;
+    color: white;
+    width: 6em;
+    font-weight: bold;
+    position: absolute;
+    top: -13em;
+    left: 1em;
+    z-index: 2;
+}
+
+.imgr2{
+    background-image: url(casque.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    block-size: 15em;
+    width: 20em;
+    
+}
+
+.trans2 {
+    border-top: 227px solid red;
+    border-right: 250px solid transparent;
+    opacity: 0.8;
+    position: relative;
+    z-index: 1;
+}
+
+.blk2{
+    color: white;
+    width: 6em;
+    font-weight: bold;
+    position: absolute;
+    top: 17em;
+    left: 48em;
+    z-index: 2;
+}
+
+.imgr3{
+    background-image: url(kw.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    block-size: 15em;
+    width: 20em;
+}
+
+.trans3 {
+    border-top: 227px solid red;
+    border-right: 250px solid transparent;
+    opacity: 0.8;
+    position: relative;
+    z-index: 1;
+}
+
+.blk3 {
+    color: white;
+    width: 6em;
+    font-weight: bold;
+    position: absolute;
+    top: 16.5em;
+    left: 74em;
+    z-index: 2;
+}
+.ale {
+    border: 2px solid red;
+    background-color: red;
+}
+
+.vil{
+    border: 2px solid red;
+    margin-left: 13em;
+}
+
+.for {
+    display: flex;
+    flex-wrap: nowrap;
+    block-size: 15em;
+    padding: 1em;
+    justify-content: space-around;
+}
+
+.img{
+    block-size: 15em;
+    width: 20em;
+}
+
+.five{
+    display: flex;
+    flex-wrap: nowrap;
+    block-size: 3em;
+    grid-column-gap: 500px;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.txt2{
+ font-size: 2em;
+ font-weight: bolder;
+ width: 20em;
+}
+
+.yup{
+    display: flex;
+    flex-wrap: nowrap;
+    block-size: 1.8em;
+    width: 40em;
+    margin: 0.7em;
+    justify-content: space-between;
+
+}
+
+.six {
+    display: flex;
+    flex-wrap: nowrap;
+    block-size: 30em;
+    margin: auto;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.ten{
+    block-size: 34.2em;
+    width: 40em;
+    margin-top: 2em;
+}
+
+.oups{
+ block-size: 17em;
+ padding: 1em;
+}
+
+.oupps {
+    block-size: 10em;
+    text-align: center;
+}
+
+.oust {
+    block-size: 10em;
+    text-align: center;
+}
+
+h5{
+    font-weight: bold;
+}
+
+.prix{
+    font-size: 1em;
+}
+
+.tt{
+    color: gray;
+}
+
+.flx{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+del{
+    color: gray;
+}
+
+.what{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: auto;
+    block-size: 3em;
+}
+
+.ein{
+    block-size: 2em;
+    width: 3em;
+    background-image: url(heart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.swei {
+    block-size: 2em;
+    width: 3em;
+    background-image: url(arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.drei {
+    block-size: 2em;
+    width: 4em;
+    background-image: url(eye.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wouy{
+block-size: 2em;
+background-size: contain;
+width: 15em;
+position: relative;
+right: 5.8em;
+background-image: url(stars.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.oust{
+    block-size: 3em;
+    margin: 1em;
+    margin-top: -1em;
+    display: flex;
+}
+
+.trait{
+    border: 0.5px solid gray;
+    width: 3em;
+    margin-left: 3em;
+    margin-top: 1em;
+    block-size: 2px;
+}
+
+.trt{
+    border: 0.5px solid gray;
+    width: 3em;
+    margin-top: 1em;
+    margin-left: -12em;
+    block-size: 2px;
+}
